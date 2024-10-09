@@ -6,6 +6,7 @@ parameters:
   dataLocality: disabled
   fromBackup: ""
   fsType: xfs
+  nfsOptions: "vers=4.2,noresvport,softerr,timeo=600,retrans=5"
   numberOfReplicas: "2"
   staleReplicaTimeout: "30"
   unmapMarkSnapChainRemoved: ignored
